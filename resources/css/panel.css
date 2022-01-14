@@ -1,0 +1,19 @@
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+#profile .img-profile{
+    height: 10rem;
+    width: 10rem;
+}
+#profile .delete:hover .img-profile{
+    opacity: 0.5;
+}
+
+#user .img-profile{
+    height: 10rem;
+    width: 10rem;
+}
+#user .delete:hover .img-profile{
+    opacity: 0.5;
+}
